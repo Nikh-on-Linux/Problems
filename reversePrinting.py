@@ -8,5 +8,5 @@ for i in range(0,300):
   if i%2 == 0 and i%3 == 0 and i%5 !=0 :
     nums.append(i)   
     
-for j in reversed(nums):
-  print(j)
+for j in range(0,len(nums)):
+  print(nums[-(j+1)])
