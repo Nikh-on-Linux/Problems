@@ -5,7 +5,7 @@ are divisible by both 2 and 3 but not divisible by 5.
 
 nums = []
 for i in range(0,300):
-  if i%2 == 0 or i%3 == 0 and i%5 !=0 :
+  if i%2 == 0 and i%3 == 0 and i%5 !=0 :
     nums.append(i)   
     
 for j in reversed(nums):
